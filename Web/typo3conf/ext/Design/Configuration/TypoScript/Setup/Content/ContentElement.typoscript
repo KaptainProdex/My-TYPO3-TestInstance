@@ -1,0 +1,17 @@
+lib.contentElement {
+    templateRootPaths {
+        20 = EXT:in2template/Resources/Private/Templates/ContentElements/
+    }
+
+    partialRootPaths {
+        20 = EXT:in2template/Resources/Private/Partials/ContentElements/
+    }
+
+    layoutRootPaths {
+        20 = EXT:in2template/Resources/Private/Layouts/ContentElements/
+    }
+
+    settings {
+        defaultHeaderType = {$styles.content.defaultHeaderType}
+    }
+}

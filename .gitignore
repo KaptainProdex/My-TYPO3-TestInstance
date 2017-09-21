@@ -1,0 +1,19 @@
+###
+## diese Dateien/Ordner nicht mit GIT versionieren
+###
+/.idea
+# TYPO3 spezielle Dateien
+/Web/fileadmin/
+/Web/typo3temp/
+/Web/uploads/
+/Web/typo3conf/l10n/
+/Web/typo3conf/extTables.php
+/Web/typo3conf/ENABLE_INSTALL_TOOL
+/Web/typo3conf/AdditionalConfiguration/
+/Web/typo3/
+/vendor/
+
+# TYPO3 Extension Handling (typo3conf/ext ignorieren und alle eigenen Extensions, außer die über Composer kommen, ausnehmen)
+/Web/typo3conf/ext/*
+!/Web/typo3conf/ext/index.html
+!/Web/typo3conf/ext/Design
